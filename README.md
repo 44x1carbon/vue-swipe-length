@@ -1,6 +1,6 @@
 # vue-swipe-length
 
-> A Vue.js project
+> スワイプの距離を取れるディレクティブ
 
 ## Build Setup
 
@@ -14,5 +14,16 @@ npm run dev
 # build for production with minification
 npm run build
 ```
+
+## use 
+
+```
+<div v-swipe-length:vertical='m'>
+</div>
+
+<div v-swipe-length:horizontal='m'>
+</div>
+```
+
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
